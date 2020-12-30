@@ -86,8 +86,8 @@
 #include <assert.h>
 
 /**********************  DEFINES/ENUMS ***********************************/
-#define DEFAULT_SERVICEWAITMS 5000
-#define DEFAULT_TCPWRAPPEDMS 2000   // connections closed after this timeout are not considered "tcpwrapped"
+#define DEFAULT_SERVICEWAITMS 2500
+#define DEFAULT_TCPWRAPPEDMS 1000   // connections closed after this timeout are not considered "tcpwrapped"
 #define DEFAULT_CONNECT_TIMEOUT 5000
 #define DEFAULT_CONNECT_SSL_TIMEOUT 8000  // includes connect() + ssl negotiation
 #define SERVICEMATCH_REGEX 1
